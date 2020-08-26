@@ -14,11 +14,11 @@ static const int topbar             = 0;        /* 0 means bottom bar */
 static const int barPadding         = 20;	/* default 2 */
 static const char *fonts[]          = { "monospace:size=11", "JoyPixels:pixelsize=11" }; /* default 10 for both text and emoji */
 static const char dmenufont[]       = "monospace:size=10";
-static const char col_gray1[]       = "#073642";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#002b36";
+static const char col_gray1[]       = "#1f1f1f"; /* #073642 (main status bar color) */
+static const char col_gray2[]       = "#444444"; /* #444444 */
+static const char col_gray3[]       = "#bbbbbb"; /* #bbbbbb (foreground text color) */
+static const char col_gray4[]       = "#eeeeee"; /* #eeeeee */
+static const char col_cyan[]        = "#141414"; /* #002b36 (selected workspace and active central name) */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
